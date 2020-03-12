@@ -1,0 +1,279 @@
+{
+    "key": "group_5e615aee1df4f",
+    "title": "Home Sectie 1",
+    "fields": [
+        {
+            "key": "field_5e615b0405e0d",
+            "label": "Blokken header",
+            "name": "blokken_header",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e615ba005e0e",
+            "label": "Blokken header onderschrift",
+            "name": "blokken_header_onderschrift",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e615bb705e0f",
+            "label": "Blokken header tekst",
+            "name": "blokken_header_tekst",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 12,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5e615bdd05e10",
+            "label": "Blokken",
+            "name": "blokken",
+            "type": "repeater",
+            "instructions": "Hier kunt u de gegevens invullen\/aanpassen voor de blokken die op de home pagina staat. het is aan te raden om 3 blokken per keer toe te voegen.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 3,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e615db905e11",
+                    "label": "Icoon",
+                    "name": "icoon",
+                    "type": "image",
+                    "instructions": "Icoon voor het blok.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": 50,
+                    "min_height": 50,
+                    "min_size": "",
+                    "max_width": 100,
+                    "max_height": 100,
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5e615e0305e12",
+                    "label": "Blok titel",
+                    "name": "blok_titel",
+                    "type": "text",
+                    "instructions": "Titel van het blok.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5e615e1905e13",
+                    "label": "Blok tekst",
+                    "name": "blok_tekst",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "br"
+                }
+            ]
+        },
+        {
+            "key": "field_5e62ab033fd78",
+            "label": "Afbeelding onder blokken",
+            "name": "afbeelding_blok",
+            "type": "image",
+            "instructions": "Dit is voor de afbeelding onder de blokken.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 1920,
+            "min_height": 500,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5e62ab423fd79",
+            "label": "Type opvang header",
+            "name": "type_opvang_header",
+            "type": "text",
+            "instructions": "Header boven de types.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e62ab5e3fd7a",
+            "label": "Type opvang sub header",
+            "name": "type_opvang_sub",
+            "type": "text",
+            "instructions": "De tekst die onder de type header verschijnt.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e62abfa3fd7b",
+            "label": "Achtergrond types",
+            "name": "achtergrond_types",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 1920,
+            "min_height": 500,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5e62ac143fd7c",
+            "label": "Testemonial header",
+            "name": "testemonial_header",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "13"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "discussion",
+        "comments",
+        "revisions",
+        "author",
+        "format",
+        "featured_image",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1583591119
+}

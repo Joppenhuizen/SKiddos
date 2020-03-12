@@ -1,0 +1,138 @@
+{
+    "key": "group_5e6153c067c38",
+    "title": "Footer contact",
+    "fields": [
+        {
+            "key": "field_5e6153cbec920",
+            "label": "Telefoon nummer",
+            "name": "telefoon_nummer",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "012 345 6789",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e61540cec921",
+            "label": "Straat + huisnummer",
+            "name": "straat",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Het voorbeeld 123,",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e615422ec922",
+            "label": "Email",
+            "name": "email",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "voorbeeld@voorbeeld.nl",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e6154e69a9bd",
+            "label": "Openingstijden",
+            "name": "openingstijden",
+            "type": "text",
+            "instructions": "Bezoektijden",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Maandag – Zaterdag: 9:00 tot 17:00",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e615463ec923",
+            "label": "Copyright",
+            "name": "copyright",
+            "type": "text",
+            "instructions": "Copyright tekst",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e63b30b25f56",
+            "label": "Korte beschrijving",
+            "name": "korte_beschrijving",
+            "type": "textarea",
+            "instructions": "Dit is de beschrijving die links in de footer staat, hier kunt u een korte beschrijving van uw bedrijf plaatsen.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-thema-footer-gegevens"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1583592285
+}

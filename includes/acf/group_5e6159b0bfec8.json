@@ -1,0 +1,98 @@
+{
+    "key": "group_5e6159b0bfec8",
+    "title": "Home header",
+    "fields": [
+        {
+            "key": "field_5e6159bbb9c3a",
+            "label": "Header afbeelding",
+            "name": "header_afbeelding",
+            "type": "image",
+            "instructions": "Deze afbeelding wordt boven aan de pagina getoond.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 1920,
+            "min_height": 1080,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5e615a30b9c3b",
+            "label": "Header tekst",
+            "name": "header_tekst",
+            "type": "text",
+            "instructions": "De tekst die op de header staat.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e615a48b9c3c",
+            "label": "Knop header",
+            "name": "knop_header",
+            "type": "page_link",
+            "instructions": "Dit is de knop die onder de header tekst staat. Deze kan linken naar alle pagina's",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 1,
+            "multiple": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "13"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "discussion",
+        "comments",
+        "revisions",
+        "author",
+        "format",
+        "featured_image",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1583525232
+}

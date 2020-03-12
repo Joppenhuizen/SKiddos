@@ -1,0 +1,115 @@
+{
+    "key": "group_5e651cbb13968",
+    "title": "Overige opties",
+    "fields": [
+        {
+            "key": "field_5e651cdde804b",
+            "label": "Achtergrond type slider",
+            "name": "achtergrond_type_slider",
+            "type": "image",
+            "instructions": "Deze afbeelding zal achter de types verschijnen.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 1920,
+            "min_height": 600,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5e651d0ee804c",
+            "label": "Type slider header tekst",
+            "name": "type_slider_header_tekst",
+            "type": "textarea",
+            "instructions": "Deze tekst komt boven de type slider te staan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5e67eb302c278",
+            "label": "Archief header afbeelding",
+            "name": "archief_header_afbeelding",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 1920,
+            "min_height": 250,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5e68a38f8c4f0",
+            "label": "Post header afbeelding",
+            "name": "post_header_afbeelding",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 1920,
+            "min_height": 250,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "thema-opties"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1583915943
+}

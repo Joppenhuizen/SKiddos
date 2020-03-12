@@ -1,0 +1,687 @@
+/*
+Theme Name: SKiddo
+Theme URI: http://joppenhuizen.nl
+Author: J Oppenhuizen
+Description: Theme gemaakt voor super kiddo's.
+Version: 1.0.0
+*/
+
+/* site */
+html, body {
+	height:100%;
+	width:100%;
+}
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%; 
+	overflow-x: hidden;
+}
+body {
+	margin: 0;
+}
+h1 {
+	font-size: 2.5em;
+	margin: 0.67em 0;
+}
+a,p,span,h1,h2,h3,h4,h5,section
+{
+	font-family: 'Roboto';
+}
+a:hover, a
+{
+	text-decoration: none;
+	color:#000;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+/* header */
+.nav-bar-container {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+
+    transition: opacity .2s linear, height .2s linear;
+    overflow:hidden;
+}
+.menu-item a:hover
+{
+	color:#000;
+	text-decoration: none;
+}
+.menu-item a
+{
+	color:#000;
+	text-transform:uppercase;
+	text-decoration: none;
+	vertical-align: middle;
+	position: relative;
+}
+.navbar .row {
+	margin: auto;
+}
+.header .container {
+    max-width: 1400px;
+}
+.header {
+    height: 90px;
+}
+.logo img {
+    height: auto;
+    max-width: 250px;
+}
+.logo, .nav-top
+{
+	display: inline-block;
+}
+.nav-top
+{
+	margin-left: 100px;
+}
+.navbar-nav .menu-item:not(:first-child) {
+    margin-left: 50px;
+}
+.navbar-nav a:after {
+    content: " ";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-color: #000;
+    transition: transform 0.1s;
+    transform: scaleX(0);
+}
+.navbar-nav a:hover:after
+{
+	transform: scaleX(1);
+}
+.nav-top.mobile .menu-item {
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.nav-top.mobile {
+    margin-left: 0px;
+    position: fixed;
+    padding: 0px 20px 0px 20px;
+    background-color: #baddfa;
+    height: 0px;
+    width: 100vw;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    transition: height 0.5s;
+}
+.nav-top.mobile.active
+{
+	height: 100vh;
+}
+.nav-top.mobile .menu-item {
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.nav-top.mobile .navbar-nav {
+    margin-top: 12px;
+}
+.mobile-btn {
+	display: none;
+}
+.mobile-btn {
+  margin: 18px;
+  width: 40px;
+  position: absolute;
+  top: -19px;
+}
+.nav-top.mobile .menu-main-menu-container {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.mobile-btn:after, .mobile-btn:before, .mobile-btn div {
+  background-color: #000;
+  border-radius: 3px;
+  content: ' ';
+  display: block;
+  height: 5px;
+  margin: 7px 0;
+  transition: all .2s ease-in-out;
+}
+.mobile-btn.close:before {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.mobile-btn.close:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+
+.mobile-btn.close div {
+  transform: scale(0);
+}
+.mobile-btn.close {
+    right: 20px;
+    top: 20px;
+}
+.scrolltop {
+	position: fixed;
+    border-radius: 5px;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    padding-top: 3px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 5px 17px 0 rgba(0,0,0,0.19);
+    font-size: 22px;
+    background-color: #167dcf;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+}
+.scrolled .scrolltop
+{
+	opacity: 1;
+    visibility: visible;
+    
+}
+body:not(.home) .nav-bar-container {
+    background-color: #9dcdf8;;
+    position: relative;
+}
+
+/* eind header */
+
+/* home */
+section#home-header {
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    background-size:cover;
+}
+a#header-btn {
+    padding: 8px 22px;
+    border-radius: 10px;
+    margin-top: 12px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ffa73c;
+}
+section#blokken {
+    padding: 80px 0px;
+    background-color: #def2fc;
+    border-top: 1px solid #167dcf;
+}
+span.blokken-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 52px;
+    display: block;
+}
+h4.blokken-sub {
+    font-size: 22px;
+    color: #167dcf;
+    margin-top: 9px;
+    font-weight: 400;
+}
+h2.blokken-header {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+
+#blokken .blok
+{
+	padding:22px 32px;
+}
+#blokken .blok:hover
+{
+	background-color: #fff;
+}
+.blok-icon
+{
+	transition: transform 1s;
+}
+#blokken .blok:hover .blok-icon
+{
+	transform: rotateY(180deg);
+}
+.blok-icon, .blok-titel {
+    text-align: center;
+}
+.blok-titel {
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+.blok-tekst {
+    font-size: 14px;
+}
+section#fillafb {
+    height: 500px;
+}
+a.type-slide {
+    float: left;
+    height: 274px;
+    min-height: 1px;
+    padding: 30px;
+    border: 2px solid #167dcf;
+    border-radius: 11px;
+    margin: 0px 15px;
+}
+.type-slide-title::after {
+    content: " ";
+    width: 50%;
+    position: absolute;
+    height: 2px;
+    left: 25%;
+    bottom: -20px;
+    background-color: #167dcf;
+}
+.type-slide-title {
+    position: relative;
+    text-align: center;
+    font-size:18px;
+}
+.type-slide-desc {
+    margin-top: 46px;
+}
+
+#type-slider-section
+{
+	padding: 80px 0px;
+	background-color: #def2fc;
+}
+.type-slider-text {
+    margin-bottom: 36px;
+}
+#testemonial-slider-section
+{
+	padding: 80px 0px;
+}
+#testemonial-slider-section h3 {
+    margin-bottom: 90px;
+    font-size: 39px;
+    font-weight: 400;
+}
+.getuigennaam {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+.testemonial-slide .info {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+img.port {
+    width: 80px;
+    height: auto;
+}
+.testemonial-slide-tekst {
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 20px;
+}
+.testemonial-slide {
+    float: left;
+    height: auto;
+    min-height: 1px;
+    margin: 0px 15px;
+}
+.testemonial-slide-tekst {
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 20px;
+    height: 200px;
+}
+/* eind home */
+
+/* paginas */
+section#page-header {
+    height: 250px;
+    position: relative;
+    width:100%;
+    color: #fff;
+}
+section#page-header a {
+    color: #fff;
+}
+section#page-header .overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #dbdbdb4d;
+}
+/* eind paginas */
+
+/* aandacht voor */
+section.aandacht-single {
+    padding: 38px 0px;
+    background-color: #def2fc;
+}
+.aandacht-img {
+    text-align: right;
+}
+.aandacht-img img {
+    padding: 10px;
+    border: 1px solid #167dcf;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.aandacht-teksten {
+    background-color: #baddfa;
+    border: 1px solid #167dcf;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: -11px;
+}
+.aandacht-single .image {
+    z-index: 3;
+}
+/* eind aandacht voor */
+
+/* galerij */
+img.attachment-350x200.size-350x200 {
+    width: 350px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 7px;
+    border: 1px solid #167dcf;
+    border-radius: 12px;
+    background-color: #baddfa;
+}
+section#galerij {
+    padding: 32px 0px;
+    background-color: #def2fc;
+}
+section#galerij .row:not(:first-child) {
+    margin-top: 25px;
+}
+.lb-dataContainer {
+    top: 0;
+    position: absolute;
+}
+/* eind galerij */
+
+/* persooneel */
+section#personeel-archive-header {
+    padding-top: 36px;
+}
+.ons-personeel {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 32px;
+}
+.personeel-item-info {
+    line-height: 21px;
+}
+.personeel-naam {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0px 0px 0px;
+}
+.personeel-functie {
+    font-size: 14px;
+}
+.personeel-row {
+    padding-bottom: 42px;
+}
+.personeel-item-img img {
+    max-width: 100%;
+    height: auto;
+}
+article.personeel {
+    padding: 38px 0px;
+}
+/* eind personeel */
+
+/* contact */
+div#maps-container iframe {
+    width: 100%;
+    height: 450px;
+}
+section.contact {
+    padding: 38px 0px;
+}
+.contact-gegevens {
+    width: 100%;
+    border: 1px solid #167dcf4f;
+    border-radius: 0px;
+    margin-bottom: 42px;
+    padding: 0px 32px;
+}
+.contact-maps {
+    width: 100%;
+}
+div#maps-container iframe {
+    width: 100%;
+    height: 450px;
+    padding: 6px;
+    border: 1px solid #b7d7f0 !important;
+    background-color: #baddfa;
+}
+.contact-item-head i {
+    font-size: 24px;
+    width: 25px;
+    color: #167dcf;
+    text-align: center;
+}
+.contact-item-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact-item {
+    padding: 22px 0px;
+    position: relative;
+}
+.contact-item-head h4 {
+    margin-bottom: 0px;
+    margin-left: 25px;
+    font-size: 18px;
+}
+.contact-item span {
+    margin-left: 50px;
+}
+.contact-item::after {
+    content: " ";
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 1px;
+    background-color: #b7d7f0;
+}
+/* eind contact */
+
+
+/* footer */
+span.footer-title {
+    display: block;
+    margin-bottom: 12px;
+    font-weight:500;
+}
+
+.footer-contact > span {
+    display: block;
+}
+span.postcode {
+    margin-left: 33px;
+}
+.footer-contact span.dashicons {
+    margin-right: 13px;
+    font-size: 26px;
+    height: 100%;
+}
+.footer-contact > span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 34px;
+}
+.footer {
+    padding: 30px 0px 20px;
+    color: #000;
+    background-color: #baddfa;
+}
+section.copy {
+    background-color: #9dcdf8;
+    padding: 20px 0px;
+}
+.footer-open-dag, .footer-open-waarde {
+    display: block;
+}
+span.footer-contact-item {
+    font-weight: 300;
+}
+span.footer-contact-item strong {
+    margin-right: 16px;
+}
+.footer-nav {
+    list-style: none;
+    padding-left:0;
+}
+.footer-nav li:before
+{
+	color:#000;
+	content: "\f345";
+	font-family: dashicons;
+	display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+    transform: translateX(-5px);
+    -webkit-transition: all 0.3s; /* Safari prior 6.1 */
+  	transition: all 0.3s; 
+}
+.footer-nav li:hover:before
+{
+	transform: translateX(0px);
+}
+.footer-contact-item {
+    margin-bottom: 10px;
+}
+.footer-contact-item i {
+    width: 25px;
+    text-align: center;
+}
+.footer-contact-item span {
+    font-size: 15px;
+    margin-left: 12px;
+}
+/* eind footer */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+    .navbar.header > .container > .row > .col-12 {
+        text-align: center;
+    }
+    .nav-top {
+        margin-left: 0px;
+    }
+    .header {
+        height: 116px;
+    }
+    .nav-top.desktop {
+        padding: 20px 0px;
+    }
+}
+
+@media (min-width: 769px) {
+	.home .nav-bar-container.anim
+	{
+		opacity: 0;
+		height:0;
+	}
+	.home .scrolled .nav-bar-container.anim {
+		height: 90px;
+		opacity: 1;
+	    position: fixed;
+	    background-color: #9dcdf8;
+	    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 5px 3px 0 rgba(0,0,0,0.1);
+	}
+    h2.ons-personeel::after {
+    content: " ";
+    height: 2px;
+    width: 200px;
+    top: 50%;
+    margin-left: 10%;
+    transform: translateY(-50%);
+    position: absolute;
+    background-color: #167dcf;
+    }
+    h2.ons-personeel::before {
+        content: " ";
+        height: 2px;
+        width: 200px;
+        top: 50%;
+        left: -106%;
+        transform: translateY(-50%);
+        position: absolute;
+        background-color: #167dcf;
+    }
+    #blokken .row:not(:first-child) > div:nth-child(2) .blok
+    {
+        border-right: 1px solid #167dcf;
+        border-left: 1px solid #167dcf;
+    }
+    #blokken .row:not(:nth-child(2)) .blok
+    {
+        border-top: 1px solid #167dcf;
+    }
+}
+@media (max-width: 768px) {
+
+	.logo img {
+	    height: auto;
+	    max-width: 210px;
+	}
+	.header {
+	    height: 90px;
+	    position: sticky;
+	    width: 100%;
+	    top: 0;
+	    z-index: 10;
+	}
+	.mobile-btn
+	{
+		display: inline-block;
+	}
+    .testemonial-slide-tekst
+    {
+        height:380px;
+    }
+    img.attachment-350x200.size-350x200
+    {
+        max-width: 100%;
+    }
+    .gal-image {
+        max-width: 100%;
+        margin: 0px 0px 12px 0px;
+    }
+    .aandacht-img {
+        text-align: center;
+    }
+    .aandacht-teksten
+    {
+        margin-left: 0px;
+    }
+
+}
+@media (min-width: 361px) {
+
+
+}

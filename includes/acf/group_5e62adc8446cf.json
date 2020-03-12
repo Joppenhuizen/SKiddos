@@ -1,0 +1,77 @@
+{
+    "key": "group_5e62adc8446cf",
+    "title": "Type Opvang",
+    "fields": [
+        {
+            "key": "field_5e62ae23aedb2",
+            "label": "Korte omschijving",
+            "name": "korte_omschijving",
+            "type": "textarea",
+            "instructions": "Een korte beschrijving van het type opvang.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 7,
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5e62ae73aedb3",
+            "label": "Omschrijving",
+            "name": "omschrijving",
+            "type": "textarea",
+            "instructions": "Vul hier de uitgebreide omschrijving in van het type opvang.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "type_opvang"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1583866233
+}

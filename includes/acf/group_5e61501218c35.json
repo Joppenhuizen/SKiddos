@@ -1,0 +1,101 @@
+{
+    "key": "group_5e61501218c35",
+    "title": "Personeel",
+    "fields": [
+        {
+            "key": "field_5e61502e34c81",
+            "label": "Foto",
+            "name": "foto",
+            "type": "image",
+            "instructions": "Foto van de persoon.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 300,
+            "min_height": 300,
+            "min_size": "",
+            "max_width": 600,
+            "max_height": 600,
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5e6150c534c83",
+            "label": "Functie",
+            "name": "functie",
+            "type": "text",
+            "instructions": "Functie van de persoon.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e61511934c84",
+            "label": "Profiel",
+            "name": "profiel",
+            "type": "textarea",
+            "instructions": "Profiel van de persoon.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 12,
+            "new_lines": "wpautop"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "personeel"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1583866160
+}
